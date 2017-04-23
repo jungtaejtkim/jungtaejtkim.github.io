@@ -1,32 +1,63 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# Site Info
 title: Jungtae Kim Blog
-email: jungtae.jt.kim@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  스타트업과 새로운 기술, 그리고 라이프 스타일에 대해 이야기합니다.
+tagline: 'A Jekyll theme based on Lanyon'
+description: '스타트업과 새로운 기술, 그리고 라이프 스타일에 대해 이야기합니다.'
 baseurl: ""
-url: "http://jungtaejtkim.github.io" 
-twitter_username: jungtaejtkim
-github_username: jungtaejtkim
+url: http://jungtaejtkim.github.io
+logo: ''
 
-# Build settings
-markdown: kramdown
-theme: minima
+# Site configurations
 gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+  - jekyll-paginate
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
+
+version: 1.0.0
+
+# About/contact
+author:
+  name: Jungtae Kim
+  description: 스타트업과 새로운 기술, 그리고 라이프 스타일에 대해 이야기합니다.
+  gravatar: 
+  contact:
+    linkedin:  https://www.linkedin.com/in/jungtae-kim-77810112b/
+    # github:    https://github.com/jungtaejtkim
+    facebook:  https://www.facebook.com/windjtk
+    # twitter:   https://twitter.com/Li_Zhihao
+    # weibo:     http://weibo.com/41173780
+    email:     jungtae.jt.kim@gmail.com
+
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:          
+    - '/about/'
+  Github Project: 
+    - ''
+
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
+
+hero:
+  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: '' # leave blank if you don't want google analytics
+disqus_short_name: 'jtkim' # leave blank if you don't want disqus
+
