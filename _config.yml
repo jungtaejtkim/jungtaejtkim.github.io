@@ -26,7 +26,7 @@ version: 1.0.0
 author:
   name: Jungtae Kim
   description: 스타트업과 새로운 기술, 그리고 라이프 스타일에 대해 이야기합니다.
-  gravatar: 2283bd5d924f4b9863e886ca2db13dd6
+  gravatar: dc3040b3d53d20e89643cf7035ba9866
   contact:
     linkedin:  https://www.linkedin.com/in/jungtae-kim-77810112b/
     # github:    https://github.com/jungtaejtkim
@@ -53,8 +53,8 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: /public/img/we_will_be_giants_by_yalestewart.jpg
-  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
+  image: /public/img/hikikomori-boy.png
+  caption: 
 
 # Puglins
 mathjax: true # whether support mathjax
