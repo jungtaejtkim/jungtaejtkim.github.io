@@ -1,6 +1,6 @@
 # Site Info
 title: Jungtae Kim Blog
-tagline: 'A Jekyll theme based on Lanyon'
+tagline: 'Jungtae Kim Blog'
 description: '스타트업과 새로운 기술, 그리고 라이프 스타일에 대해 이야기합니다.'
 baseurl: ""
 url: http://jungtaejtkim.github.io
@@ -26,7 +26,7 @@ version: 1.0.0
 author:
   name: Jungtae Kim
   description: 스타트업과 새로운 기술, 그리고 라이프 스타일에 대해 이야기합니다.
-  gravatar: 
+  gravatar: 2283bd5d924f4b9863e886ca2db13dd6
   contact:
     linkedin:  https://www.linkedin.com/in/jungtae-kim-77810112b/
     # github:    https://github.com/jungtaejtkim
