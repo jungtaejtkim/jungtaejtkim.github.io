@@ -4,12 +4,32 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Jungtae Kim
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+Experienced professional in tech industry specialized in mobile application software development project, mobile
+business development.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+* About me
+** Korea University Business School
+** Ex - startup founder (Series A level) 
+** Ex - startup team leader (Series B-C level)
+
+
+* Contents of this blog
+** Essay about mobile application development
+** Review of gear
+** Market Trend
+** New life style 
+
+
+* My skill 
+** grow hacking
+** data analysis
+** start up
+** mobile 
+** project management
+** ruby on rails
+** swift
+** python
+** java script
+** deep learning 
