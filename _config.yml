@@ -4,7 +4,7 @@ tagline: 'Jungtae Kim Blog'
 description: '스타트업과 새로운 기술, 그리고 라이프 스타일에 대해 이야기합니다.'
 baseurl: ""
 url: http://jungtaejtkim.github.io
-logo: ''
+logo: '/public/logo.png'
 
 # Site configurations
 gems:
