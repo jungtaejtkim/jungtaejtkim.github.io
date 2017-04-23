@@ -33,7 +33,7 @@ author:
     facebook:  https://www.facebook.com/windjtk
     # twitter:   https://twitter.com/Li_Zhihao
     # weibo:     http://weibo.com/41173780
-    email:     jungtae.jt.kim@gmail.com
+    # email:     jungtae.jt.kim@gmail.com
 
 # Navigation (2nd level links supported)
 nav:
@@ -53,7 +53,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: /public/img/hikikomori-boy.png
+  image: /public/img/digitalnomad.png
   caption: 
 
 # Puglins
