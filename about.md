@@ -4,51 +4,48 @@ title: About
 permalink: /about/
 ---
 
-Jungtae Kim
+# Jungtae Kim
 
 Experienced professional in tech industry specialized in mobile application software development project, mobile
 business development.
 
-* About me
+### Contact
+* email : jungtae.jt.kim@gmail.com
 
-** Korea University Business School
+-----
 
-** Ex - startup founder (Series A level) 
+### About me
 
-** Ex - startup team leader (Series B-C level)
-
-
-
-* Contents of this blog
-
-** Essay about mobile application development
-
-** Review of gear
-
-** Market Trend
-
-** New life style 
+* Korea University Business School
+* Ex - startup founder (Series A level) 
+* Ex - startup team leader (Series B-C level)
 
 
+### Contents of this blog
 
-* My skill 
+* Essay about mobile application development
+* Review of gear
+* Market Trend
+* New life style 
 
-** grow hacking
+-----
 
-** data analysis
+### My skill 
 
-** start up
+* grow hacking
+* data analysis
+* start up
+* mobile 
+* project management
+* product management
+* rapid prototyping by coding from scratch
+* swift
+* ruby on rails
+* python
+* Django - Flask
+* java script
+* firebase
+* ***deep learning ***
 
-** mobile 
+------
 
-** project management
-
-** ruby on rails
-
-** swift
-
-** python
-
-** java script
-
-** deep learning 
