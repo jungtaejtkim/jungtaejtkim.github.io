@@ -40,7 +40,7 @@ Jekyll 예시 사이트
 
 		>'나 tech 좀 알고 이걸로 밥도 좀 먹고 살아' 
 		
-	의 쿨한 상징과도 같아서 이에 이끌려 결정하였다. (워드프레스가 무료호스팅이며, 지킬수	준으로 가볍고 텍스트 기반이라 할지라도 이것때문에 jekyll 을 선택했을 것이다 * ^^ * )
+	의 쿨한 상징과도 같아서 이에 이끌려 결정하였다. (워드프레스가 무료호스팅이며, 지킬수준으로 가볍고 텍스트 기반이라 할지라도 이것때문에 jekyll 을 선택했을 것이다 * ^^ * )
 
 
 -----
@@ -86,7 +86,7 @@ cd document
 git clone "https://깃헙유저네임.github.io"
 {% endhighlight %}
 
-10- 만들어진 clone 폴더에 들어가서, git 을 처음으로 연결(init) 하고 제출(commit) 한다. {% highlight js %} 
+10- 만들어진 clone 폴더에 들어가서, git 을 제출(commit) 한다. {% highlight js %} 
 cd 깃헙유저네임.github.io  
 // 해당 폴더로 진입 
 git add -all
@@ -107,6 +107,8 @@ sudo gem install jekyll
 // 지킬 gem 을 깐다
 jekyll new 아무폴더이름
 // 지킬이 적용된 파일 폴더를 만든다 
+cd 아무폴더이름
+// 만들어진 폴더로 이동한다
 jekyll serve --watch 
 // 명령어 입력후 사파리나 크롬을 연뒤 [http://localhost:4000](http://localhost:4000) 으로 가보면 jekyll 이 컴퓨터에서 돌고있음을 확인 할 수 있다. 
 {% endhighlight %}
