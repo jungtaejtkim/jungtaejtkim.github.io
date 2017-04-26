@@ -112,7 +112,9 @@ cd 아무폴더이름
 jekyll serve --watch 
 // 명령어 입력후 사파리나 크롬을 연뒤 [http://localhost:4000](http://localhost:4000) 으로 가보면 jekyll 이 컴퓨터에서 돌고있음을 확인 할 수 있다. 
 {% endhighlight %}
+
 12- 지금 만든 폴더의 내용물을 빠짐없이 아까 git 을 clone 한 폴더로 복사한다. 빠짐없이 복사하기위해선 맥의 command + shift + > 를 누르면 숨김파일까지 나오는데, 해당 파일까지 이동시키면 된다. 터미널을 이용하지 않아도된다.
+
 13- 다시 터미널을 통해 github.io 폴더로 이동한뒤에 이제 jekyll 을 git 에 올려준다 
 {% highlight js %}
 cd username.github.io
