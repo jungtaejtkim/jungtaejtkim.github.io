@@ -23,10 +23,12 @@ business development.
 
 ### Contents of this blog
 
-* Essay about mobile application development
-* Review of gear
-* Market Trend
+* Essay [mobile application development]
+* Cool gear review
+* Market trend
 * New life style 
+* Dev
+* Book
 
 -----
 
