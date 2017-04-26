@@ -89,7 +89,7 @@ git clone "https://깃헙유저네임.github.io"
 10- 만들어진 clone 폴더에 들어가서, git 을 제출(commit) 한다. {% highlight js %} 
 cd 깃헙유저네임.github.io  
 // 해당 폴더로 진입 
-git add -all
+git add --all
 // git init
 git commit -m "첫번째로 코드와함께 제출할 메모"
 // git commit
@@ -119,7 +119,7 @@ jekyll serve --watch
 {% highlight js %}
 cd username.github.io
 git add * 
-//git add -all 과 같은 명령어
+//git add --all 과 같은 명령어
 git commit -m "install jekyll"
 git push
 {% endhighlight %}
