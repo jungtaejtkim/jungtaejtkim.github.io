@@ -66,6 +66,8 @@ codeless 한 환경은 사용은 쉽지만 위에 말한 장점을 충분히 살
 
 2. 계정을 만든뒤 "create repository" 클릭
 
+![_config.yml]({{ site.baseurl }}/public/img/git1.png)
+
 3. repository name 을 깃헙계정이름.github.io, 만약 계정이름이 jtkim 이라면 jtkim.github.io 를 입력한다
 
 4. public 과 private 을 설정하면되는데, 이는 github 이나 googling 을 통한 공개여부를 결정한다. 오픈소스 / 배타적소스 라고 보면 될 것 같다. private 으로 설정하려면 월단위 과금을 선택하거나, 학생 특전을 받으면된다. 그런데 공개 블로그에는 그렇게 까지 보호할 만한 자료는 없을것이므로 그냥 public 으로 해도 무방하다.
@@ -138,11 +140,17 @@ git push
 
 
 
-1. jekyll 로 운영중인 타인의 github.io 사이트를 찾는다. "tech blog github.io" 나 "design blog github.io" 로 검색해서 여러개를 방문해거나 이미지 검색해서 자신이 원하는 디자인과 기능을 갖춘 테마를 찾는다. 
+1. jekyll 로 운영중인 타인의 github.io 사이트를 찾는다. "tech blog github.io" 나 "design blog github.io" 로 검색해서 여러개를 방문해거나 이미지 검색해서 자신이 원하는 디자인과 기능을 갖춘 테마를 찾는다.
+
+![_config.yml]({{ site.baseurl }}/public/img/git4.png)
 
 2. 그런 github.io 의 블로그들은 자신이 쓰는 테마를 자신의 git 에 opensource 로 공유해둔다. github.io 의 메뉴중에 직접 자신의 git 으로 대부분 링크를 걸어두었으니 그곳으로 이동한다. 
 
+![_config.yml]({{ site.baseurl }}/public/img/git2.png)
+
 3. 해당 git 으로 이동한뒤 우측 상단 Star, Folk... 등등에서 folk 를 누르고 자신의 계정으로 해당 jekyll theme 를 복사해온다. 매너인 star 누르기를 잊지 말자. 
+
+![_config.yml]({{ site.baseurl }}/public/img/git3.png)
 
 4. 복사된 자신의 계정 내 theme git 으로 가서 우측 상단에 초록색으로 빛나는 "Clone or download" 를 클릭하여 다운로드 받는다. 
 
