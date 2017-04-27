@@ -62,33 +62,33 @@ Jekyll 예시 사이트
 
 codeless 한 환경은 사용은 쉽지만 위에 말한 장점을 충분히 살리기 어렵기때문에 처음에 다소 어려워도 컴퓨터에 설치하도록 한다. 나는 맥 환경에서 설치를 진행하였다. 설치는 간단하지만 jekyll 은 ruby gem 환경이므로, 명령어 하나하나를 이해하려면 ruby 를 어느정도 알아야한다. 초기 설치시에만 ruby 관련 명령어를 쓰고 완료된 뒤엔 ruby 쳐다볼일 없으니 그냥 그대로 따라 치는게 편하다.
 
-1. www.github.com 에서 계정을 만든다
+- www.github.com 에서 계정을 만든다
 
-2. 계정을 만든뒤 "create repository" 클릭
+- 계정을 만든뒤 "create repository" 클릭
 
 ![_config.yml]({{ site.baseurl }}/public/img/git1.png)
 
-3. repository name 을 깃헙계정이름.github.io, 만약 계정이름이 jtkim 이라면 jtkim.github.io 를 입력한다
+- repository name 을 깃헙계정이름.github.io, 만약 계정이름이 jtkim 이라면 jtkim.github.io 를 입력한다
 
-4. public 과 private 을 설정하면되는데, 이는 github 이나 googling 을 통한 공개여부를 결정한다. 오픈소스 / 배타적소스 라고 보면 될 것 같다. private 으로 설정하려면 월단위 과금을 선택하거나, 학생 특전을 받으면된다. 그런데 공개 블로그에는 그렇게 까지 보호할 만한 자료는 없을것이므로 그냥 public 으로 해도 무방하다.
+- public 과 private 을 설정하면되는데, 이는 github 이나 googling 을 통한 공개여부를 결정한다. 오픈소스 / 배타적소스 라고 보면 될 것 같다. private 으로 설정하려면 월단위 과금을 선택하거나, 학생 특전을 받으면된다. 그런데 공개 블로그에는 그렇게 까지 보호할 만한 자료는 없을것이므로 그냥 public 으로 해도 무방하다.
 
-5. init readme.md 를 체크한뒤 repository 를 만든다
+- init readme.md 를 체크한뒤 repository 를 만든다
 
-6. 그 뒤 초기 git 설정 메시지가 나오는데, 익숙하거나 해당 메시지에 익숙하신분들은 그대로 설정하면 되고, 아니면 아래 메시지를 따르면 된다
+- 그 뒤 초기 git 설정 메시지가 나오는데, 익숙하거나 해당 메시지에 익숙하신분들은 그대로 설정하면 되고, 아니면 아래 메시지를 따르면 된다
 
-7. 터미널을 실행한다
+- 터미널을 실행한다
 
-8. desktop 이나 document 같은 접근하기 편한 경로로 이동한다. {% highlight js %} 
+- desktop 이나 document 같은 접근하기 편한 경로로 이동한다. {% highlight js %} 
 cd desktop
 // or 
 cd document
 {% endhighlight %} 
 
-9- 다음 코드를 기입한다 {% highlight js %} 
+- 다음 코드를 기입한다 {% highlight js %} 
 git clone "https://깃헙유저네임.github.io"
 {% endhighlight %}
 
-10- 만들어진 clone 폴더에 들어가서, git 을 제출(commit) 한다. {% highlight js %} 
+- 만들어진 clone 폴더에 들어가서, git 을 제출(commit) 한다. {% highlight js %} 
 cd 깃헙유저네임.github.io  
 // 해당 폴더로 진입 
 git add --all
@@ -99,7 +99,7 @@ git push -u origin master
 // 이 이후부터는 git push 명령어만 입력하면된다
 {% endhighlight %}
 
-11- 이제부터 컴퓨터에 github 과 연동되는 jekyll 을 설치하는 작업이다. 현재까지 있던 github.io 에서 벗어난뒤 루비 버전을 확인 후 지킬을 설치한다.
+- 이제부터 컴퓨터에 github 과 연동되는 jekyll 을 설치하는 작업이다. 현재까지 있던 github.io 에서 벗어난뒤 루비 버전을 확인 후 지킬을 설치한다.
 {% highlight js %}
 cd ..
 // 해당 폴더를 벗어난다
@@ -115,9 +115,9 @@ jekyll serve --watch
 // 명령어 입력후 사파리나 크롬을 연뒤 http://localhost:4000 으로 가보면 jekyll 이 컴퓨터에서 돌고있음을 확인 할 수 있다. 
 {% endhighlight %}
 
-12- 지금 만든 폴더의 내용물을 빠짐없이 아까 git 을 clone 한 폴더로 복사한다. 빠짐없이 복사하기위해선 맥의 command + shift + > 를 누르면 숨김파일까지 나오는데, 해당 파일까지 이동시키면 된다. 터미널을 이용하지 않아도된다.
+- 지금 만든 폴더의 내용물을 빠짐없이 아까 git 을 clone 한 폴더로 복사한다. 빠짐없이 복사하기위해선 맥의 command + shift + > 를 누르면 숨김파일까지 나오는데, 해당 파일까지 이동시키면 된다. 터미널을 이용하지 않아도된다.
 
-13- 다시 터미널을 통해 github.io 폴더로 이동한뒤에 이제 jekyll 을 git 에 올려준다 
+- 다시 터미널을 통해 github.io 폴더로 이동한뒤에 이제 jekyll 을 git 에 올려준다 
 {% highlight js %}
 cd username.github.io
 git add * 
@@ -126,7 +126,7 @@ git commit -m "install jekyll"
 git push
 {% endhighlight %}
 
-14- 1분 정도 기다린뒤 자신의 username.github.io 를 주소창에 입력한다. 정상 접속 되면 그대로 마무리이다.
+- 1분 정도 기다린뒤 자신의 username.github.io 를 주소창에 입력한다. 정상 접속 되면 그대로 마무리이다.
 
 
 
@@ -140,32 +140,40 @@ git push
 
 
 
-1. jekyll 로 운영중인 타인의 github.io 사이트를 찾는다. "tech blog github.io" 나 "design blog github.io" 로 검색해서 여러개를 방문해거나 이미지 검색해서 자신이 원하는 디자인과 기능을 갖춘 테마를 찾는다.
+- jekyll 로 운영중인 타인의 github.io 사이트를 찾는다. "tech blog github.io" 나 "design blog github.io" 로 검색해서 여러개를 방문해거나 이미지 검색해서 자신이 원하는 디자인과 기능을 갖춘 테마를 찾는다.
 
 ![_config.yml]({{ site.baseurl }}/public/img/git4.png)
 
-2. 그런 github.io 의 블로그들은 자신이 쓰는 테마를 자신의 git 에 opensource 로 공유해둔다. github.io 의 메뉴중에 직접 자신의 git 으로 대부분 링크를 걸어두었으니 그곳으로 이동한다. 
+
+
+- 그런 github.io 의 블로그들은 자신이 쓰는 테마를 자신의 git 에 opensource 로 공유해둔다. github.io 의 메뉴중에 직접 자신의 git 으로 대부분 링크를 걸어두었으니 그곳으로 이동한다. 
+
 
 ![_config.yml]({{ site.baseurl }}/public/img/git2.png)
 
-3. 해당 git 으로 이동한뒤 우측 상단 Star, Folk... 등등에서 folk 를 누르고 자신의 계정으로 해당 jekyll theme 를 복사해온다. 매너인 star 누르기를 잊지 말자. 
+
+
+- 해당 git 으로 이동한뒤 우측 상단 Star, Folk... 등등에서 folk 를 누르고 자신의 계정으로 해당 jekyll theme 를 복사해온다. 매너인 star 누르기를 잊지 말자. 
+
 
 ![_config.yml]({{ site.baseurl }}/public/img/git3.png)
 
-4. 복사된 자신의 계정 내 theme git 으로 가서 우측 상단에 초록색으로 빛나는 "Clone or download" 를 클릭하여 다운로드 받는다. 
 
-5. 자신의 username.github.io 컴퓨터 폴더로 이동하여 gemfile, gemfile.lock 를 제외하고 전부 다른곳으로 이동시킨다 (삭제하지말고 혹시모르니 백업하라는 의미).  간혹 gitignore 라는 파일때문에 아래 절차가 진행이 안될수 있다. 이 경우 깔끔하게 이동시키려면 역시 command + shift + > 를 활용.
+- 복사된 자신의 계정 내 theme git 으로 가서 우측 상단에 초록색으로 빛나는 "Clone or download" 를 클릭하여 다운로드 받는다. 
 
-6. 다운로드 받은 테마파일을 내 username.github.io 로 복사한다
+- 자신의 username.github.io 컴퓨터 폴더로 이동하여 gemfile, gemfile.lock 를 제외하고 전부 다른곳으로 이동시킨다 (삭제하지말고 혹시모르니 백업하라는 의미).  간혹 gitignore 라는 파일때문에 아래 절차가 진행이 안될수 있다. 이 경우 깔끔하게 이동시키려면 역시 command + shift + > 를 활용.
 
-7. 제대로 복사되었는지 확인한다
+- 다운로드 받은 테마파일을 내 username.github.io 로 복사한다
+
+- 제대로 복사되었는지 확인한다
 {% highlight js %}
 cd username.github.io
 // 해당 폴더로 이동
 jekyll serve --watch
 // 명령어 실행 후 사파리, 크롬을 통해 localhost:4000 으로 이동해서 확인
 {% endhighlight %}
-8. 터미널을 실행시킨후 커밋, 푸쉬한다 
+
+- 터미널을 실행시킨후 커밋, 푸쉬한다 
 {% highlight js %}
 cd username.github.io
 // 해당 폴더로 이동
@@ -176,11 +184,11 @@ git commit -m "copy theme"
 git push
 {% endhighlight %}
 
-9- username.github.io 사이트에 방문하여 제대로 적용 되었는지 확인한다. 더미 컨텐츠와 튜토리얼을 통해 테마 제작자가 남긴 주의사항을 염두에 두고 향 후 블로깅을 하면 된다
+- username.github.io 사이트에 방문하여 제대로 적용 되었는지 확인한다. 더미 컨텐츠와 튜토리얼을 통해 테마 제작자가 남긴 주의사항을 염두에 두고 향 후 블로깅을 하면 된다
 
-10- 컴퓨터 내 github.io 폴더에서 _config.yml 을 연다. 거기서 자신의 이름, 컨택트등 정보를 기입해준다. 기입이 완료되면 git push
+- 컴퓨터 내 github.io 폴더에서 _config.yml 을 연다. 거기서 자신의 이름, 컨택트등 정보를 기입해준다. 기입이 완료되면 git push
 
-11- jekyll github io blog 완성
+- jekyll github io blog 완성
 
 
  
