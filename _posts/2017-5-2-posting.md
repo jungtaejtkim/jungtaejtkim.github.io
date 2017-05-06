@@ -110,15 +110,10 @@ tags: [blog, jekyll, github.io]<br>
 
 위 사항을 지켜 포스트를 작성하고나면, .md 파일이 제목 컨벤션을 가진 채로 _post 폴더 안에 위치하게 된다. 업로드 하는법은 jekyll 설치때 자주 사용했던 git 명령어로 github.io 로 밀어 넣는다고 생각하면 된다
 
-{% highlight js %} 
-cd 폴더 
-// jekyll 프로젝트 폴더로 이동
-git add * 
-// 추가한 파일을 git 에 기록할 준비 
-git commit -m "new post at 2017-05-06" 
-// git 변경 사항에 대한 메모 
-git push // git 에 등록
-{% endhlight %} 
+git add *
+git commit -m "post"
+git push
+
 
 이렇게 밀어 넣고 약 2분 정도 있으면 자신의 jekyll 블로그가 변경 된 걸 알 수 있다.
 
